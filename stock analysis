@@ -1,3 +1,4 @@
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -5,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 
-data = pd.read_csv('/content/TATAMOTORS_BSE_01Oct20-01Oct21.csv')
+data = pd.read_csv('/content/TATAMOTORS_BSE_01Oct20-01Oct21 (1).csv')
 
 data = data.sort_values('Date')
 
